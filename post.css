@@ -1,0 +1,128 @@
+body{ 
+	margin: 0px; 
+	width: 100%; 
+	height: 100%; 
+	background: url(back.jpg); no-repeat center; 
+	background-size: cover; 
+	font-family: 'Times New Roman', sans-serif; 
+}
+.bgimage{
+	top:0;
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	width: 100%;
+	height: auto;
+	z-index: -9999;
+	background-color: rgba(0, 0, 0, 0.7); 
+}
+.a{
+	top:0;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li {
+    float: left;
+}
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #AAA;
+}
+.active {
+    background-color: #AAA;
+}
+.shadow { 
+	-webkit-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75); 
+	-moz-box-shadow: 0px 0px 8px -2px rgba( 0,0,0,0.75); 
+	box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75); 
+}
+#wrappingpost { 
+	max-width: 1000px;
+	background: #EAEAEA;
+	margin: 60 auto;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.but{
+  color: white;
+  font-family: Times;
+  background-color: blue;
+  border-radius: 5;
+  background-color: rgb(100, 100, 100);
+  border-color: rgb(50, 50, 50);
+  margin: 10;
+  font-size: 14;
+}
+.c{
+float: left; 
+margin: 12; 
+font-size: 14;
+background-color: black;
+color: white;
+border:0;
+} 
+footer{
+  background-color: black;
+  line-height: 3;
+  text-align: center;
+  font-size: 12;
+  font-family: Times New Roman;
+  color: white;
+  font-weight: lighter;
+}
+.b{
+  width: 100%;
+  opacity: 0.3;
+  position: relative;
+}
+.x{
+  position: absolute;
+    width: 400px;
+    height: 250px;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 200 auto;
+    text-align: center;
+}
+.f{
+  border: 1px;
+  border-radius: 5;
+  width: 300;
+  height: 60;
+  margin-top: 10;
+  font-size: 28;
+  padding-left: 5px;
+}
+.d{
+  border-radius: 5;
+  width: 100;
+  height: 40;
+  margin-top: 10;
+  font-size: 20;
+  color: white;
+  background-color: rgb(26, 163, 255);
+  border-color: rgb(26, 163, 255);
+}
+.big{
+  border: 1px;
+  border-radius: 5;
+  width: 300;
+  margin-top: 10;
+  font-size: 28;
+  padding-left: 5px;
+}
